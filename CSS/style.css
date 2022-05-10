@@ -58,7 +58,7 @@
         position: relative;
         width: 40px;
         height: 40px;
-        left: 80%;
+        left: -50px;
         border-radius: 50%;
     }
     .spinner::before,
