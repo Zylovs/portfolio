@@ -403,14 +403,14 @@ cursor: pointer;
 background-image: url(../Media/Unity_2021.svg.png);
 }
 .service_card:nth-child(3){
-    background-image: url(../Media/webdesign.jpg);
+    background-image: url(../Media/wb.png);
     }
     .service_card:nth-child(4){
         background-image: url(../Media/java.png);
         
         }
         .service_card:nth-child(5){
-            background-image: url(../Media/app\ development\ cost.png);
+            background-image: url(../Media/mp.png);
             }
 
 
