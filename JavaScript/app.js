@@ -64,7 +64,7 @@ function bubble() {
 init();
 bubble(); 
 
-//navigation (this is my code)
+//navigation 
 var animation = 'easeOutCubic';
     delay     = 60;
 
