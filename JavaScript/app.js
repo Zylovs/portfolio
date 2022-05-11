@@ -16,7 +16,7 @@ var w = window.innerWidth,
     size = 20,
     speed = 10,
     lights = new Array,
-    colors = ['#62d9f7','#ffffff','#55cf67','#cf7693'];
+    colors = ['#62d9f7','#03fc6f','#91ff00','#cf7693','#ff8000','#4400ff'];
 
 canvas.setAttribute('width',w);
 canvas.setAttribute('height',h);
