@@ -110,6 +110,14 @@
 .containers{
     color: #fff;
 }
+.containers h3{
+    background-image: linear-gradient(to top, #75b6e4 40%, #55cf67 100%);
+-webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color:transparent;
+   background-clip: text; 
+}
 /*main Section Formatting*/
 .container{
     height: 190vh;
@@ -227,6 +235,14 @@ background-image: linear-gradient(to top, #75b6e4 0%, #55cf67 100%);
     color: #fff;
     padding: 5px;
     
+}
+.container-pl h3{
+    background-image: linear-gradient(to top, #75b6e4 0%, #55cf67 100%);
+-webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color:transparent;
+   background-clip: text; 
 }
   /*Footer*/
       .footer_container{
