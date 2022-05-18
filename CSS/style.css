@@ -552,6 +552,20 @@ background-image: url(../Media/Unity_2021.svg.png);
 
 
 /*Services mobile responsive formatting*/
+@media screen and (max-width:1200px){
+    .services{
+        flex-direction: row;
+        height: 250vh;
+    }
+    .services h1{
+        position: absolute;
+        top: 20px;
+        font-size: 4rem;
+    }
+    .service_card{
+        width: 400px;
+    }
+}
 @media screen and (max-width:820px){
     .services{
         flex-direction: row;
