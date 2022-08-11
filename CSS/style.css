@@ -632,27 +632,3 @@ background-image: url(../Media/Unity_2021.svg.png);
     bottom: -2200px;
 }
 }
-/* media for learned*/
-@media screen and (max-width:820px){
-    .main_contents h2{
-        top: 0px;
-        left: 60px;
-        width: 400px;
-    }
-    .img{
-        width: 400px;
-        height: 60vh;
-    }
-    .container-pl h3{
-        width: 300px;
-    }
-    .port{
-        width: 500px;
-        height: 80vh;
-    }
-    .container_ss{
-        position: absolute;
-        left: 5px;
-        bottom: 200px;
-    }
-}
