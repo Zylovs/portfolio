@@ -86,11 +86,18 @@
        -moz-text-fill-color:transparent;
        background-clip: text; 
     }
-    .mySlides {display:none;}
+    .mySlides {display:block;}
 .container{
     width: 1300px;
-    
+    position: absolute;
+    top: 150px;
 }
+.imgs{
+    
+    width: 1500px;
+    height: 50vh;
+}
+
     /*Footer*/
     .footer_container{
         background-image: url(../Media/Footer-Background-Image.png);
