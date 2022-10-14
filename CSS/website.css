@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     font-family: 'kumbh Sans' , sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
     }
     body{
         background-color:#151515;
@@ -92,9 +95,12 @@
     position: absolute;
     top: 150px;
 }
+.container h2{
+    align-items: center;
+}
 .imgs{
     
-    width: 1500px;
+    width: 1000px;
     height: 50vh;
 }
 
