@@ -21,9 +21,9 @@
         text-decoration: none;
         font-size: 1.4em;
     }
-    ul li{
+    .gap{
         list-style: none;
-        margin-top: -90px;
+        margin-top: 90px;
     }
     .hamb{
         position: absolute;
@@ -45,11 +45,7 @@
         z-index: 1;
         background: rgba(0, 0,0, 0.5);
     }
-    .gap{
-        color: white;
-        margin-top: 100px;
-        width: 200px;
-    }
+    
     
 .main{
     background: radial-gradient(#555, #111);
@@ -76,7 +72,7 @@
 
   /*Footer*/
       .footer_container{
-        background-image: url(../Media/Footer-Background-Image.png);
+        background-color: #111;
         padding: 5 0rem;
         display: flex;
         flex-direction: row;
