@@ -94,3 +94,69 @@ border-radius: 25px;
         align-items: center;
         justify-content: center;
     }
+
+
+    @media only screen and (max-width: 1326px) and (max-height: 570px){
+        .container{
+            height: 130vh;
+        }    
+
+        .aboutme{
+           position: absolute;
+           left: 1%;
+           top: 5%;
+        }
+
+        .img-container{
+            position: absolute;
+            right: -5%;
+            top:-5% ;
+        }
+
+        .skills{
+            position: absolute;
+            top:80% ;
+            left: 5%;
+            height: 50vh;
+        }
+
+        .tools{
+            position: absolute;
+            top: 80%;
+            right: 5%;
+            height: 50vh;
+        }
+    }
+
+
+    @media only screen and (max-width: 1280px) and (max-height: 800px){
+        .container{
+            height: 100vh;
+        }    
+
+        .aboutme{
+           position: absolute;
+           left: 1%;
+           top: 5%;
+        }
+
+        .img-container{
+            position: absolute;
+            right: -5%;
+            top:-5% ;
+        }
+
+        .skills{
+            position: absolute;
+            top:60% ;
+            left: 5%;
+            height: 25vh;
+        }
+
+        .tools{
+            position: absolute;
+            top: 70%;
+            right: 5%;
+            height: 15vh;
+        }
+    }
