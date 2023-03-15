@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'kumbh Sans' , sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    }
+      /*navbar particales*/
+      #mainnav{
+        position: absolute;
+        z-index: 1;
+    }
+    #mainnav li{
+        margin: 55px 0;
+        left: -550px;
+        position: relative;
+        display: none;
+    }
+    #mainnav a{
+        color: #00ffd0;
+        text-decoration: none;
+        font-size: 1.4em;
+    }
+    ul li{
+        list-style: none;
+        margin-top: -90px;
+    }
+    .hamb{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 2.5em;
+        z-index: 1;
+    }
+    .hamb a{
+        color: white;
+        text-decoration: none;
+    }
+    #bubble{
+        width: 100%;
+        height: 100%;
+        opacity: 0.9;
+        position: fixed;
+        display: none;
+        z-index: 1;
+        background: rgba(0, 0,0, 0.5);
+    }
+    .gap{
+        color: white;
+        margin-top: 100px;
+        width: 200px;
+    }
+    /*main container */
+    .main{
+        background-color: #f71616;
+    }
+    .main_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 90vh;
+        background-color: #151515;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .main_content{
+        color: #fff;
+        width: 100%;
+    }
+    .main_content h1{
+        position: absolute;
+        left: 800px;
+        top: 0px;
+        margin-top: 50px;
+    font-size: 4rem;
+    background-image: linear-gradient(to top, #75b6e4 0%, #55cf67 100%);
+    -webkit-background-clip: text;
+       -moz-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       -moz-text-fill-color:transparent;
+       background-clip: text; 
+       text-align: center;
+    }
+    .mySlides {display:block;}
+  .container{
+    width: 1300px;
+    position: absolute;
+    top: 150px;
+  }
+  .container h2{
+    align-items: center;
+  }
+  .imgs{
+    
+    width: 1000px;
+    height: 50vh;
+  }
+  
+  
