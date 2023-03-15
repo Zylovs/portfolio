@@ -7,51 +7,7 @@
     font-style: italic;
     font-size: 15px;
     }
-      /*navbar particales*/
-      #mainnav{
-        position: absolute;
-        z-index: 1;
-    }
-    #mainnav li{
-        margin: 55px 0;
-        left: -550px;
-        position: relative;
-        display: none;
-    }
-    #mainnav a{
-        color: #00ffd0;
-        text-decoration: none;
-        font-size: 1.4em;
-    }
-    ul li{
-        list-style: none;
-        margin-top: -90px;
-    }
-    .hamb{
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        font-size: 2.5em;
-        z-index: 1;
-    }
-    .hamb a{
-        color: white;
-        text-decoration: none;
-    }
-    #bubble{
-        width: 100%;
-        height: 100%;
-        opacity: 0.9;
-        position: fixed;
-        display: none;
-        z-index: 1;
-        background: rgba(0, 0,0, 0.5);
-    }
-    .gap{
-        color: white;
-        margin-top: 100px;
-        width: 200px;
-    }
+ 
     /*main container */
     .main{
         background-color: #f71616;
